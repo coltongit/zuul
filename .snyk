@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - istanbul-middleware > body-parser > debug:
+        patched: '2021-02-10T12:00:25.488Z'
+  'npm:mime:20170907':
+    - zuul-localtunnel > localtunnel > request > mime:
+        patched: '2021-02-10T12:00:25.488Z'
+    - zuul-localtunnel > localtunnel > request > form-data > mime:
+        patched: '2021-02-10T12:00:25.488Z'
+  'npm:minimatch:20160620':
+    - firefox-profile > archiver > file-utils > glob > minimatch:
+        patched: '2021-02-10T12:00:25.488Z'
+    - firefox-profile > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2021-02-10T12:00:25.488Z'
+    - firefox-profile > archiver > file-utils > minimatch:
+        patched: '2021-02-10T12:00:25.488Z'
+    - istanbul-middleware > archiver > glob > minimatch:
+        patched: '2021-02-10T12:00:25.488Z'
+  'npm:ms:20170412':
+    - istanbul-middleware > body-parser > debug > ms:
+        patched: '2021-02-10T12:00:25.488Z'
+  'npm:request:20160119':
+    - zuul-localtunnel > localtunnel > request:
+        patched: '2021-02-10T12:00:25.488Z'
